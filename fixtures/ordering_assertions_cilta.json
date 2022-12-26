@@ -1,0 +1,76 @@
+{
+    "orderHeader": {
+        "patientName": "PATIENT NAME",
+        "orderId": "PATIENT ID",
+        "coi": "COI"
+    },
+    "orderPhases": {
+        "patient" : "Patient",
+        "scheduling": "Scheduling",
+        "confirmation": "Confirmation"
+    },
+    "patientInformation":{
+        "title": "Patient Information",
+        "patientInfo": "Patient Info",
+        "orderDetails": "Order Details",
+        "selectTreatment": "SELECT TREATMENT ORDERING SITE",
+        "patientInfoDescriptionKey": "Enter the information below exactly as it appears on the patient's government ID.",
+        "orderDescription": "Enter information about the order",
+        "institutionDropdown": "Which is the treatment ordering site?",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "dayOfBirth": "Day of Birth (Optional)",
+        "monthOfBirth": "Month of Birth (Optional)",
+        "yearOfBirth": "Year Of Birth",
+        "orderId":"Order ID",
+        "patientId" :"Patient ID",
+        "lotNumber": "Lot Number",
+        "medicalRecordNumber": "Medical Record Number",
+        "treatmentOrderingSite": "Treatment Ordering Site"
+
+    },
+    "scheduling": {
+        "title": "Scheduling",
+        "collection": "Collection",
+        "drugProduct": "Drug Product Delivery",
+        "selectSite": "Select Site",
+        "contactPerson": "Contact Person",
+        "phoneNumber": "Contact Phone Number",
+        "additionalNotes": "Additional Notes"
+    },
+    "confirmation":{
+        "title": "Confirmation",
+        "therapy": "Therapy", 
+        "patientInfo": "Patient Information",
+        "treatment": "Treatment Ordering Site",
+        "collection": "Collection",
+        "satLab": "satellite lab",
+        "drugProduct": "Drug Product Delivery",
+        "summaryConfirm": "Summary Confirmation",
+        "product" : "Product",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "dayOfBirth": "Day of Birth",
+        "monthOfBirth": "Month of Birth",
+        "yearOfBirth": "Year of Birth",
+        "orderId":"Order ID",
+        "patientId": "Patient ID",
+        "lotNumber": "Lot Number",
+        "medicalRecordNumber": "Medical Record Number",
+        "treatmentOrderingSite": "Treatment Ordering Site",
+        "apheresisSite" : "Apheresis Site",
+        "apheresisDate" : "Apheresis Date",
+        "streetAddress": "Street Address",
+        "contactName": "Contact Name",
+        "phoneNumber": "Phone Number",
+        "additionalNotes": "Additional Notes",
+        "deliverySite": "Delivery Site",
+        "deliveryDate": "Delivery Date",
+        "dropoff": "Dropoff Site Address",
+        "deliveryContact": "Delivery Contact",
+        "deliveryNumber": "Delivery Phone Number",
+        "additionalDeliveryNotes": "Additional Delivery Notes",
+        "verifyPrompt": "I confirm that the information entered is complete and accurate.",
+        "approverPrompt": "I verify that the information entered is complete and accurate."
+    }
+}

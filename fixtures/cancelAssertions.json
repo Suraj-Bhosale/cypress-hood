@@ -1,0 +1,41 @@
+{
+	"header": {
+		"name": "NAME",
+		"subjectNumber": "SUBJECT NUMBER",
+		"studyNumber": "STUDY NUMBER",
+        "studyNumberValue": "68284528MMY2003",
+		"coi": "COI",
+        "cancelSidebar": "Order Cancellation"
+	},
+	"title": {
+		"title": "Order Cancellation Request",
+		"description": "Please select a cancellation reason. After order cancellation is submitted a notification will be sent confirming cancellation.",
+		"header1": "Cancellation Reason",
+		"title2": "Order Cancelled"
+	},
+	"labels": {	
+		"question": "Why is this order being cancelled?",
+		"reason": "Patient Screen Failure",
+		"description2": "Reschedule Requested",
+		"checkdescription": "I verify the order cancellation list is filled and uploaded in TCP/CCM",
+		"verify": "Verify"
+	},
+	"button":{
+	 "yesButton": "Yes, cancel order",
+	 "noButton": "No, don't cancel",
+     "close": "Close"
+	},
+
+	"headerCilta": {
+		"name": "NAME",
+		"orderId": "PATIENT ID",
+		"product": "PRODUCT",
+		"coi": "COI",
+        "cancelSidebar": "Order Cancellation"
+	},
+	
+	"headerCiltaValues":{
+		"ciltaCell": "Cilta-Cel"
+	}
+	
+}

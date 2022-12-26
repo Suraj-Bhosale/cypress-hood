@@ -1,0 +1,184 @@
+{
+  "collectionSummary":{
+    "stepTitle":"Collection Summary",
+    "sectionHeading":"Collection Session",
+    "collectionDateLabel":"Collection Date",
+    "title2":"Total Bags",
+    "title3":"Additional Bag Reason",
+    "collectionIDMLabel":"Collection IDM test results are negative and the test sample was collected within 7 days prior to Leukapheresis",
+    "collectionIDMValue": "Yes ",
+    "dinLabel":"DIN/Unique Donation Number/Apheresis ID",
+    "dinValue": "890 ",
+    "orderSummary": "Order Summary",
+    "viewSummary": "View Summary"
+  },
+
+  "shipmentReceiptChecklist": {
+    "phaseName": "Receive Materials",
+    "stepTitle": "Shipment Receipt Checklist",
+    "sectionHeading1": "Shipper Scan",
+    "sectionHeading2": "Condition and Details of Outer Shipper",
+    "scanAndEnter": "Scan or enter the Air Waybill Number on the shipping label.",
+    "shippingContainer": "Is the shipping container in good intact condition?",
+    "shipperSeal": "Is the seal on the shipper intact?",
+    "stepTitleSummary": "Shipment Receipt Summary",
+    "sectionHeading3": "Review",
+    "satelliteAwbNotMatch":"Did the Air Waybill Number match the expected value?",
+    "rationalResponse":"Please provide rationale for response.",
+    "additionalComments": "Additional Comments (Optional)"
+  },
+
+  "shipmentReceiptSummary": {
+    "phaseName": "Receive Materials",
+    "stepTitle": "Shipment Receipt Summary",
+    "sectionHeading1": "Shipper Scan",
+    "sectionHeading2": "Condition and Details of Outer Shipper",
+    "scanAndEnter": "Scan or enter the Air Waybill Number on the shipping label.",
+    "scanAndEnterValue": "Scan not completed",
+    "shippingContainer": "Is the shipping container in good intact condition?",
+    "shippingContainerValue": "Yes ",
+    "shipperSeal": "Is the seal on the shipper intact?",
+    "shipperSealValue": "Yes ",
+    "stepTitleSummary": "Shipment Receipt Summary",
+    "sectionHeading3": "Review",
+    "satelliteAwbNotMatch": "Did the Air Waybill Number match the expected value?",
+    "satelliteAwbNotMatchValue": "No ",
+    "rationalResponse": "Please provide rationale for response.",
+    "rationalResponseValue": "test reason ",
+    "additionalComments": "Additional Comments"
+  },
+
+  "apheresisProductReceipt": {
+    "phaseName": "Receive Materials",
+    "stepTitle": "Apheresis Product Receipt",
+    "sectionHeading1": "Bag Scan",
+    "sectionHeading2": "Condition and Details of Material",
+    "scanAndVerifyLabel": "Scan or enter the COI number from the label on the cell collection bag.",
+    "tempDataconfirmToggleLabel": "Does the temperature data conform to standards?",
+    "collectionBagExpectedToggleLabel": "Is the collection bag in expected good condition?",
+    "collectionBagCountLabel": "Total number of collection bags",
+    "receivedTotalBagsToggleLabel": "I have received the total number of bags as displayed above.",
+    "additionalComment": "Additional Comments"
+  },
+
+  "apheresisProductReceiptSummary": {
+    "phaseName": "Receive Materials",
+    "stepTitle": "Apheresis Product Receipt Summary",
+    "sectionHeading1": "Bag Scan",
+    "sectionHeading2": "Condition and Details of Material",
+    "sectionHeading3": "Review", 
+    "scanAndVerifyLabel": " Scan or enter the COI number from the label on the cell collection bag. ",
+    "tempDataconfirmToggleLabel": "Does the temperature data conform to standards?",
+    "tempDataconfirmToggleLabelValue": "Yes ",
+    "collectionBagExpectedToggleLabel": "Is the collection bag in expected good condition?",
+    "collectionBagExpectedToggleValue": "Yes ",
+    "collectionBagCountLabel": "Total number of collection bags",
+    "receivedTotalBagsToggleLabel": "I have received the total number of bags as displayed above.",
+    "additionalComment": "Additional Comments",
+    "additionalCommentValue": "Additional Box ",
+    "confirmed": "Confirmed",
+    "edit": "Edit"
+  },
+
+  "cryopreservationDate": {
+    "phaseName": "Process PBMC",
+    "stepTitle": "Cryopreservation Date",
+    "sectionHeading": "Cryopreservation Date",
+    "cryoDate": "Cryopreservation Date"
+  },
+  
+  "pbmcLabels": {
+    "phaseName": "Process PBMC",
+    "stepTitle": "PBMC Labels",
+    "sectionHeading": "Print Labels",
+    "successMessage": "Print request has been successfully sent.",
+    "labelText":"Labels Configured to Print: 6 x PBMC Labels",
+    "checkboxDescription": "Confirm that the expected labels printed correctly and are legible.",
+    "checkBoxLabel": "Yes"
+  },
+
+  "pbmcLabelsEu": {
+    "phaseName": "Process PBMC",
+    "stepTitle": "PBMC Labels",
+    "sectionHeading": "Print Labels",
+    "successMessage": "Print request has been successfully sent.",
+    "labelText":"Labels Configured to Print: 6 x PBMC Labels",
+    "checkboxDescription": "Confirm that the expected labels printed correctly and are legible.",
+    "checkBoxLabel": "Yes"
+  },
+
+  "pbmcBagsInformation": {
+    "phaseName": "Process PBMC",
+    "stepTitle": "PBMC Bags Information",
+    "sectionHeading": "Confirm Number of Bags",
+    "inputFieldTitle": "How many bags resulted from today's PBMC processing?",
+    "checkboxDescription": "Apply Labels to Bags and Cassettes",
+    "checkBoxLabel": "Yes"
+  },
+
+  "processPbmcSummary": {
+    "phaseName": "Process PBMC",
+    "stepTitle": "Process PBMC Summary",
+    "sectionFirst": "PBMC Labels",
+    "sectionSecond": "PBMC Bags Information",
+    "sectionThird": "Process PBMC Review",
+    "cryoDate":"Cryopreservation Date",
+    "labelsPrinted": "Confirm that the expected labels printed correctly and are legible.",
+    "resultedBags": "How many bags resulted from today's PBMC processing?",
+    "bagCassettes": "Apply Labels to Bags and Cassettes"
+  },
+
+  "conditionalRelease":{
+    "phaseName": "Release PBMC",
+    "stepTitle": "Conditional Release",
+    "headerFirst": "Quality Documents Upload",
+    "uploadText": "Please upload release documents for the Conditional Release",
+    "uploadDescription": "Name/s of document/s uploaded"
+  },
+
+  "finalRelease":{
+    "phaseName": "Release PBMC",
+    "stepTitle": "Final Release",
+    "headerFirst": "Quality Documents Upload",
+    "uploadText": "Please upload release documents for the Final Release",
+    "uploadDescription": "Name/s of document/s uploaded"
+  },
+
+  "selectBagsToBeShipped":{
+    "phaseName": "Ship Materials",
+    "stepTitle": "Select Bags to be Shipped",
+    "headerFirst": "Select Bags to Ship",
+    "headerDescription": "Indicate which bags you will be shipping and which bags will not be shipped. Bags that are selected for shipping will be scanned as part of the Shipping Checklist.",
+    "passToggle": "Ship",
+    "failToggle": "Do Not Ship"
+  },
+
+  "shippingChecklist":{
+    "phaseName": "Ship Materials",
+    "stepTitle": "Shipping Checklist",
+    "bagScan": "Bag Scan",
+    "shippingLabel": "Shipping Label",
+    "packShipper": "Pack the Shipper",
+    "sealShipper": "Seal the Shipper",
+    "bagIdLabel": "Scan or enter the Bag ID from the label on the PBMC bag.",
+    "awbNumber": "Scan or enter the Air Waybill number on the shipping labels.",
+    "shippingLablesAttached": "Attach shipping labels to shipper.",
+    "packShipperQuestion": "Pack and load the PBMC bags into the shipper according to the instructions provided.",
+    "viewSummaryDescription": "Check that the Summary document has been printed.",
+    "summaryDocuments": "Place summary documents in the shipper.",
+    "sealShipperQuestion": "Shipper has been sealed."
+  },
+
+  "shippingSummary":{
+    "phaseName": "Ship Materials",
+    "stepTitle": "Shipping Summary",
+    "sectionTitleFirst": "Select Bags to be Shipped",
+    "sectionTitleSecond": "Shipping Checklist",
+    "shipperLabels": "Attach shipping labels to shipper.",
+    "packingInstructions": "Pack and load the PBMC bags into the shipper according to the instructions provided.",
+    "summaryDocuments": "Place summary documents in the shipper.",
+    "shipperSealed": "Shipper has been sealed.",
+    "ship": "SHIP ",
+    "doNotShip": "DO NOT SHIP "
+  }
+}

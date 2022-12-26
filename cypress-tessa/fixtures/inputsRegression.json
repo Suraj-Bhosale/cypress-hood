@@ -1,0 +1,253 @@
+{   
+  "ordering":{
+    "subjectRegistration":{
+      "negativeInvalidDateValidMonthValidYear": "33-JAN-2000",
+      "negativeValidDateInvalidMonthValidYear": "02-XYZ-2000",
+      "negativeValidDatenegativeValidMonthInvalidYear": "02-JAN-2022",
+      "negativeInalidMonthValidYear": "XYZ-2020",
+      "negativeValidMonthInvalidYear": "JAN-2022",
+      "negativeRandomDob": "a/b",
+      "negativeCheckSpecialCharacter1": "!@#$%^&*()-+{}",
+      "negativeInvalidYear": "2022",
+      "negativeVerifySubjectIDNegativeData": "ABC",
+      "negativeVerifySubjectIDAlphabetNumber": "A11",
+      "negativeVerifySubjectIDNumberAlphabet": "11B",
+      "negativeSubjectIDcheckSpecialCharacter": "!@#$%^&*()-+{}",
+      "negativeInvalidSubjectIdAlphabet": "abc",
+      "negativeInvalidSubjectIdSpecialCharacter": "!@#$%^&*()",
+      "siteName": "Test COE 1 (US)",
+      "positiveSubjectId": "1234"
+    },
+
+    "statuses":{
+      "created": "Created",
+      "submitted": "Submitted",
+      "approved": "Approved",
+      "subjectRegistration" :"Subject Registration",
+      "principal_investigator_information": "Principal Investigator Information",
+      "scheduleCollection": "Schedule Collection",
+      "confirmOrder": "Confirm Order",
+      "confirm_subject_eligibility": "Confirm Subject Eligibility",
+      "approveOrder": "Approve Order",
+      "completed": "Completed"
+   }
+  },
+
+  "collection":{
+    "idmSampleCollection": {
+      "positivePleaseProvideRationaleForResponse": "Testing"
+    },
+    "collectionBagIdentification":{
+       "enterAndConfirm": "123abc",
+       "pleaseProvideReason": "No reason"
+    },
+    "shippingChecklist":{
+      "positiveEnterAndConfirm": "123abc",
+      "positivePleaseProvideRationaleForResponseOne": "No response for toggle 1",
+      "positivePleaseProvideRationaleForResponseTwo": "No response for toggle 2",
+      "positivePleaseProvideRationaleForResponseThree": "No response for toggle 3",
+      "positivePleaseProvideRationaleForResponseFour": "No response for toggle 4",
+      "positiveAdditionalComments": "No comments"
+    },
+    "shippingChecklistSummary":{
+      "pleaseProvideReason": "No reason"
+    },
+    "collectionSummary":{
+      "selFenwalAmicus": "fenwalAmicus"    
+    },
+    "statuses":{
+       "printApheresisProductLabels": "Print Apheresis Product Labels",
+       "idmSampleCollection": "IDM Sample Collection",
+       "subjectVerification": "Subject Verification",
+       "collectionBagIdentification": "Collection Bag Identification",
+       "captureCollectionInformation": "Capture Collection Information",
+       "mncACollection": "MNC(A) Collection",
+       "collectionSummary": "Collection Summary",
+       "shippingChecklist": "Shipping Checklist",
+       "shippingSummary": "Shipping Summary",
+       "collectionIdmTestResults": "Collection IDM Test Results",
+       "completed": "Completed"
+    }
+  },
+  
+  "satelliteLab":{
+    "shipmentReceiptChecklist":{
+      "correctAwb": "567",
+      "positivePleaseProvideReason": "No reason",
+      "positiveResonForChange": "Testing"
+    },
+    "apheresisProductReceiptSummary":{
+      "positivePleaseProvideRationaleForResponseOne": "No reason",
+      "positivePleaseProvideRationaleForResponseTwo": "No reason for change",
+      "positivePleaseProvideRationaleForResponseThree": "No reason three",
+      "positivePleaseProvideRationaleForResponseFour": "No reason for change four",
+      "positiveAdditionalComments": "Additional Comments",
+      "positiveAadditionalCommentsSecond": "Additional Comments Second",
+      "positiveResonForChange": "No",
+      "rationalResponse":"Please provide rationale for response.",
+      "tempDataconfirmToggleLabel": "Does the temperature data conform to standards?",
+      "collectionBagExpectedToggleLabel": "Is the collection bag in expected good condition?"
+    },
+    "pbmcBagsInformation":{
+      "negativeNumberOfBags": "0",
+      "positiveNumberOfBags": "4"
+    },
+    "shippingSummary":{
+      "phaseName": "Ship Materials",
+      "stepTitle": "Shipping Summary",
+      "sectionTitleFirst": "Select Bags to be Shipped",
+      "sectionTitleSecond": "Shipping Checklist",
+      "totalNumOfBags": "Total number of bags",
+      "shipperLabels": "Attach shipping labels to shipper.",
+      "packingInstructions": "Pack and load the PBMC bags into the shipper according to the instructions provided.",
+      "summaryDocuments": "Place summary documents in the shipper.",
+      "shipperSealed": "Shipper has been sealed.",
+      "positiveToggleReason": "Please provide rationale for response.",
+      "shippedBagTitle": "Total number of bags",
+      "unshippedBagTitle": "Total number of bags",
+      "bagIdentifier": "Bag 2 Identifier",
+      "scanAirway": "Scan or enter the Air Waybill number on the shipping labels",
+      "scanEnterPBMCBag2": "Scan or enter the Bag ID from the label on the PBMC bag 2.",
+      "addComments": "Additional Comments",
+      "awbComment": "AWB comment",
+      "positiveReasonForChange": "Test Reason",
+      "airwayNumber": "123456",
+      "bagIdentifier1": "Bag 1 Identifier",
+      "bagIdentifier2": "Bag 2 Identifier",
+      "bagIdentifier3": "Bag 3 Identifier",
+      "bagIdentifier4": "Bag 4 Identifier",
+      "shippedNumberOfBags": "3",
+      "unShippedNumberOfBags": "1"
+    },
+    "shippingChecklist":{
+      "satelliteAwb": "AWB-01"
+    },
+
+    "statuses":{
+      "collectionSummary" :"Collection Summary",
+      "shipmentReceiptChecklist": "Shipment Receipt Checklist",
+      "shipmentReceiptSummary": "Shipment Receipt Summary",
+      "apheresisProductReceipt": "Apheresis Product Receipt",
+      "apheresisProductReceiptSummary": "Apheresis Product Receipt Summary",
+      "cryopreservationDate": "Cryopreservation Date",
+      "pbmcLabels" : "PBMC Labels",
+      "pbmcBagsInformation": "PBMC Bags Information",
+      "processPbmcSummary" : "Process PBMC Summary",
+      "conditionalRelease": "Conditional Release",
+      "finalRelease": "Final Release",
+      "selectBagsToBeShipped": "Select Bags to be Shipped",
+      "shippingChecklist": "Shipping Checklist",
+      "shippingSummary": "Shipping Summary",
+      "completed": "Completed"
+   }
+  },
+
+   "manufacturing":{
+    "assignLotNumber":{
+      "positiveLotNumber": "123"
+    },
+    "shipmentReceiptSummary":{
+      "positivePleaseProvideRationaleForResponse": "Test",
+      "positiveResonForChange": "Testing"
+    },
+    "pbmcReceipt":{
+      "invalidDataForBag": "Test",
+      "reasonForToggleOne": "No response for toggle 1",
+      "reasonForToggleTwo": "No response for toggle 2",
+      "positiveResonForChange": "Testing"
+    },
+    "pbmcReceiptSummary":{
+      "positiveTotalNumberOfBags": "Test",
+      "positiveResonForChange": "Testing"
+    },
+    "apheresisProductReceipt":{
+      "negativeCoi": "Test",
+      "positivePleaseProvideRationaleForResponseOne": "No response for toggle 1",
+      "positivePleaseProvideRationaleForResponseTwo": "No response for toggle 2",
+      "positiveResonForChange": "Testing"
+    },
+    "apheresisProductReceiptSummary":{
+      "positivePleaseProvideRationaleForResponseTempData": "No response",
+      "positivePleaseProvideRationaleForResponseConditionData": "No response for condition",
+      "positiveAdditionalCommentsOne": "No comments one",
+      "positiveAdditionalCommentsTwo": "No comments two",
+      "positiveResonForChange": "Testing",
+      "positiveAdditionalCommentsOpt": "Additional Comments (Optional)",
+      "positiveNoData": "No",
+      "positiveYesData": "Yes",
+      "positiveRationalResponse":"Please provide rationale for response.",
+      "positiveTempDataconfirmToggleLabel": "Does the temperature data conform to standards?",
+      "positiveCollectionBagExpectedToggleLabel": "Is the collection bag in expected good condition?",
+      "positiveAdditionalComments": "Additional Comments"
+    },
+    "temperatureData":{
+      "positivePleaseProvideRationaleForResponse": "No response"
+    },
+    "manufacturingStart":{
+      "positiveResonForChange": "Testing"
+    },
+    "printFpBagLabels":{
+      "positiveResonForChange": "Testing"
+    },
+    "manufacturingSummary":{
+      "positiveManufacturingStartDate": "02-Jun-2021",
+      "positiveManufacturedOn": "22-Mar-2019",
+      "positiveReasonForChange": "Testing",
+      "positiveReason": "Test"
+    },
+    "confirmNumberOfBags":{
+      "negativeInvalidBagsCount1": "!@#$%",
+      "negativeInvalidBagsCount": "0",
+      "positiveNumberOfBags": "4"
+    },
+
+    "statuses":{
+      "assignLotNumber": "Lot Number",
+      "collectionSummary": "Collection Summary",
+      "shipmentReceiptChecklist": "Shipment Receipt Checklist",
+      "shipmentReceiptSummary": "Shipment Receipt Summary",
+      "pbmcReceipt": "PBMC Receipt",
+      "pbmcReceiptSummary": "PBMC Receipt Summary",
+      "apheresisProductReceipt": "Apheresis Product Receipt",
+      "apheresisProductReceiptSummary": "Apheresis Product Receipt Summary",
+      "temperatureData": "Temperature Data",
+      "manufacturingStart": "Manufacturing Start",
+      "harvesting": "Harvesting",
+      "printFpBagLabels": "Print Finished Product Bag Labels",
+      "confirmNumberOfBags": "Confirm Number of Bags",
+      "manufacturingSummary": "Manufacturing Summary",
+      "qaRelease": "QA Release",
+      "conditionalQpRelease": "Conditional QP Release",
+      "finalQpRelease": "Final QP Release",
+      "conditionalQualityRelease": "Conditional Quality Release",
+      "finalQualityRelease": "Final Quality Release",
+      "sponserRelease": "Sponsor Release",
+      "sponserReleaseSummary": "Sponsor Release Summary",
+      "selectBagsToBeShipped": "Select Bags to be Shipped",
+      "shippingChecklist": "Shipping Checklist",
+      "shippingSummary": "Shipping Summary",
+      "completed": "Completed"
+   }
+  },
+
+  "infusion":{
+    "finishedProductReceiptChecklist": {
+      "positivePleaseProvideRationaleForResponseOne": "No response for toggle 1",
+      "positivePleaseProvideRationaleForResponseTwo": "No response for toggle 2"
+    },
+
+    "statuses":{
+      "shipmentReceiptChecklist": "Shipment Receipt Checklist",
+      "shipmentReceiptSummary": "Shipment Receipt Summary",
+      "finishedProductReceiptChecklist": "Finished Product Receipt Checklist",
+      "finishedProductReceiptSummary": "Finished Product Receipt Summary",
+      "sponsorReleaseDocuments": "Sponsor Release Documents",
+      "completed": "Completed"
+   }
+  },
+  "cancelOrder":{
+    "reasonForCancel": "No reason for cancel",
+    "orderCancelledTitle": "Order Cancelled",
+    "cancelReason": "Therapy No Longer Needed"
+  }
+}

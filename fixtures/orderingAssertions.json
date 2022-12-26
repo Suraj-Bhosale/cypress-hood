@@ -1,0 +1,92 @@
+{
+  "orderHeader":{
+		"name": "NAME",
+		"subjectNumber": "SUBJECT NUMBER",
+		"studyNumber": "STUDY NUMBER",
+		"coi": "COI"
+	},
+  "orderPhases": {
+    "patient": "Patient",
+    "prescriber": "Prescriber",
+    "scheduling": "Scheduling",
+    "confirmation": "Confirmation",
+    "approval": "Approval"
+
+  },
+  "patient":{
+		"title": "Patient Information",
+		"subTitle": "Select the Treatment Principal Investigator",
+    "section_patient_info": "Patient Info",
+    "section_study_details": "Study Details",
+    "study_details_description_key": "Enter information about the study this patient is associated with.",
+    "patient_info_description_key": "Enter the information below exactly as it appears on the patient's government ID.",
+    "first_name": "First Name",
+    "middle_name":"Middle Name (Optional)",
+    "last_name":"Last Name",
+    "year_of_birth":"Year of Birth",
+    "subject_number":"Subject Number",
+    "site_number":"Site Number",
+    "screening_date": "Screening Date",
+    "day_of_birth": "Day of Birth (Optional)",
+    "month_of_birth": "Month of Birth (Optional)",
+    "institution_information": "SELECT TREATMENT ORDERING SITE",
+    "institution_dropdown": "Which is the treatment ordering site?",
+    "institution_name": "Treatment Ordering Site",
+    "institution": "Ordering Site Name"
+	},
+  "prescriber":{
+    "title": "Treatment Principal Investigator",
+    "prescriber_information_aardvark": "SELECT TREATMENT PRINCIPAL INVESTIGATOR",
+    "prescriber_information_richmond": "Select Treatment Principal Investigator",
+    "prescriber_desc": "Who is the Treatment Principal Investigator at the selected site?",
+    "prescriber_name": "Physician Name",
+    "prescriber_placeholder": "Select prescribing physician"
+  },
+  "scheduling":{
+    "title": "Scheduling",
+    "collection": "Collection",
+    "infusion": "Infusion",
+    "satellite_lab": "Satellite Lab"
+  },
+  "summary":{
+    "confirmation_title": "Confirmation",
+    "approve_title": "Approve Order",
+    "section_therapy": "Therapy",
+    "section_patient": "Patient Information",
+    "section_ordering_site": "Treatment Ordering Site",
+    "section_treatment_prescriber": "Treatment Prescriber",
+    "section_collection": "Collection",
+    "section_sattelite_lab": "satellite lab",
+    "section_infusion": "Infusion",
+    "section_delivery": "Delivery",
+    "section_summary_confirmation": "Summary Confirmation",
+    "study_number": "Study Number",
+
+    "first_name": "First Name",
+    "middle_name":"Middle Name",
+    "last_name":"Last Name",
+    "day_of_birth": "Day of Birth",
+    "month_of_birth": "Month of Birth",
+    "year_of_birth":"Year of Birth",
+    "sex":"Sex",
+    "subject_number":"Subject Number",
+    "screening_date": "Screening",
+    "institution_name": "Treatment Ordering Site",
+    "prescriber_name": "Physician Name",
+    "apheresis_date": "Apheresis Date",
+    "apheresis_site": "Apheresis Site",
+    "pickup_site_add": "Pickup Site Address",
+    "pickup_contact": "Pickup Contact",
+    "pickup_phone_no": "Pickup Phone Number",
+    "additional_notes": "Additional Pickup Notes",
+    "delivery_date": "Delivery Date",
+    "delivery_site": "Delivery Site",
+    "delivery_site_add": "Dropoff Site Address",
+    "delivery_contact": "Delivery Contact",
+    "delivery_phone_no": "Delivery Phone Number",
+    "delivery_additional_notes": "Additional Delivery Notes",
+    "confirm_prompt": "I confirm that the information entered is complete and accurate.",
+    "verify_prompt": "I verify that the information entered is complete and accurate."
+
+  }
+}

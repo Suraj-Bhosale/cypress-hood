@@ -1,0 +1,102 @@
+{
+  "ordering": {
+    "global": {
+      "patientDateOfBirth": "14-Feb-2020",
+      "dateOfBirth": "Date of Birth"
+    },
+    "eu": {
+    },
+    "us": {
+    },
+    "usEu": {
+    }
+  },
+  "collection": {
+    "global": {
+      "reasonCritical": "reason for critical",
+      "uniqueDonationNumber": "890",
+      "subjectHeight": "55",
+      "subjectWeight": "55",
+      "selSpectraOptia": "spectraOptia",
+      "selMnc": "mnc",
+      "selVenusCat": "centralVenousCatheter",
+      "mncInputDate": "22-Feb-2021",
+      "mncStartTime": "11:11",
+      "mncEndTime": "12:12",
+      "bloodProcessedInput": "1234",
+      "anticoagulantVolumeInput": "1234",
+      "anticoagulantTypeInput": "Test01",
+      "productVolumeInput": "123",
+      "totalYieldInput": "N/a",
+      "totalVolumeInput": "N/a",
+      "awb": "567"
+    },
+    "eu": {
+    },
+    "us": {
+    },
+    "usEu": {
+    }
+  },
+  "satelliteLab": {
+    "global": {
+      "satelliteLabWrongAwb": "5678",
+      "sLabWrongAwbReason": "test reason",
+      "addBox": "Additional Box",
+      "cryopreservationDate": "13-Mar-2021",
+      "bagCount": "4",
+      "satelliteAwb": "123456",
+      "awbComment": "AWB comment",
+      "shipperComment": "Shipper comment",
+      "numberOfBags": "4"
+    },
+    "eu": {
+    },
+    "us": {
+    },
+    "usEu": {
+      "satelliteAwb": "AWB-01"
+    }
+  },
+  "manufacturing": {
+    "global": {
+      "lotNumber": "123",
+      "satLWrongAwb": "44",
+      "satLWrongAwbReason": "reason for satellite lab awb not match",
+      "optCommentOne": "OptComment",
+      "optCommentTwo": "OptCommentTwo",
+      "mfgStartDate": "15-Nov-2020",
+      "harvestStartDate": "22-Mar-2021",
+      "harvestEndDate": "22-Mar-2022",
+      "mfgBagCount": "4",
+      "mfgBagCountGen": "3"
+    },
+    "eu": {
+    },
+    "us": {
+      "manufacturingAwb": "AWB-01",
+      "manufacturingAwbLoop": "AWB-2",
+      "optCommentAph": "OptCommentTwoAph",
+      "optionOnePerBag": "10-30MlPerBag",
+      "optionTwoPerBag": "30-70MlPerBag",
+      "optionOneCarPositiveViableTCells": "1E8To3E8CarPositiveViableTCells",
+      "optionTwoCarPositiveViableTCells": "3E8To7E8CarPositiveViableTCells"
+    },
+    "usEu": {
+      "manufacturingAwb": "AWB-01"
+    }
+  },
+  "infusion": {
+    "global": {
+      "mfgWrongAwb": "11111",
+      "mfgWrongAwbReason": "Wrong AWB Reason",
+      "addFpComment": "additional fp comments"
+    },
+    "eu": {
+    },
+    "us": {
+    },
+    "usEu": {
+    }
+  }
+}

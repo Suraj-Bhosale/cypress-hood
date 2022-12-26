@@ -1,0 +1,40 @@
+{
+  "name": "cypress-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "cypress tests for hood-config",
+  "scripts": {
+    "audit": "yarn audit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "cypress.json": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "date-fns": "^2.11.1",
+    "dayjs": "^1.10.6",
+    "faker": "^5.1.0",
+    "lint-staged": "^11.1.1",
+    "lodash": "4.17.21"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^1.4.0",
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-cypress": "^2.2.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-you-dont-need-lodash-underscore": "^6.7.1",
+    "prettier": "^1.17.0"
+  }
+}

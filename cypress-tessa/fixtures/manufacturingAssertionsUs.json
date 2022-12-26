@@ -1,0 +1,197 @@
+{
+  "lotNumberAssignment": {
+    "phaseName": "Assign Lot",
+    "title": "Lot Number",
+    "headerFirst": "Assign Lot Number",
+    "recordLotText": "Record the lot number assigned to this order."
+  },
+  "collectionSummary": {
+    "phaseName": "Receive Materials",
+    "title": "Collection Summary",
+    "sectionFirst": "Collection Session",
+    "collectionDate": "Collection Date",
+    "idmResults": "Collection IDM Test Results",
+    "dinUdn": "DIN/Unique Donation Number/Apheresis ID",
+    "orderSummary": "Order Summary",
+    "collectionSummary": "Collection Summary"
+  },
+  "shipmentReceiptChecklist": {
+    "phaseName": "Receive Materials",
+    "title": "Shipment Receipt Checklist",
+    "headerFirst": "Shipping Label Scan",
+    "headerSecond": "Condition and Details of Outer Shipper",
+    "awbDescription": "Scan or enter the Air Waybill Number on the shipping label.",
+    "shippingContainerCondition": "Is the shipping container in good intact condition?",
+    "shippingSealIntact": "Is the seal on the shipper intact?",
+    "satelliteAwbNotMatch":"Did the Air Waybill Number match the expected value?",
+    "rationalResponse":"Please provide rationale for response."
+  },
+  "shipmentReceiptSummary": {
+    "phaseName": "Receive Materials",
+    "title": "Shipment Receipt Summary",
+    "headerFirst": "SHIPPING LABEL SCAN",
+    "headerSecond": "CONDITION AND DETAILS OF OUTER SHIPPER",
+    "awbDescription": "Scan or enter the Air Waybill Number on the shipping label.",
+    "shippingContainerCondition": "Is the shipping container in good intact condition?",
+    "shippingSealIntact": "Is the seal on the shipper intact?"
+  },
+  "apheresisProductReceipt": {
+    "phaseName": "Receive Materials",
+    "title": "Apheresis Product Receipt",
+    "sectionHeadingFirst": "Bag Scan",
+    "sectionHeadingSecond": "Condition and Details of Material",
+    "coiNumberVerification": "Scan or enter the COI number from the label on the cell collection bag.",
+    "temperatureDataQuestion": "Does the temperature data conform to standards?",
+    "bagConditionQuestion": "Is the collection bag in expected good condition?",
+    "additionalComments": "Additional Comments (Optional)"
+  },
+  "apheresisProductReceiptSummary": {
+    "phaseName": "Receive Materials",
+    "title": "Apheresis Product Receipt Summary",
+    "sectionHeadingFirst": "Bag Scan",
+    "sectionHeadingSecond": "Condition and Details of Material",
+    "coiNumberVerification": "Scan or enter the COI number from the label on the cell collection bag.",
+    "temperatureDataQuestion": "Does the temperature data conform to standards?",
+    "bagConditionQuestion": "Is the collection bag in expected good condition?",
+    "additionalComments": "Additional Comments"
+  },
+  "pbmcReceiptSummary": {
+    "phaseName": "Receive Materials",
+    "title": "Apheresis Product Receipt Summary",
+    "bagScan": "Bag Scan",
+    "materialConditionDetails": "Condition and Details of Material",
+    "review": "Review",
+    "bagCondition": "Is the PBMC bag in expected good condition?",
+    "bagsReceiptConfirmation": "I have received the total number of bags as displayed above."
+  },
+  "temperatureData": {
+    "phaseName": "Check Temperature Data",
+    "title": "Temperature Data",
+    "headerFirst": "Check Temperature Data",
+    "temperatureDataConfirm": "Does the temperature data confirm to standards?"
+  },
+  "manufacturingStart": {
+    "phaseName": "Manufacture Product",
+    "title": "Manufacturing Start",
+    "header": "Capture Manufacturing Information",
+    "description": "The manufacturing process of CD30.CAR-T Product has started."
+  },
+  "harvesting": {
+    "phaseName": "Manufacture Product",
+    "title": "Harvesting",
+    "headerFirst": "Confirm Bag Information",
+    "headerFirstDescription": "REFERENCE INFORMATION: Please refer to the information below prior to making your selection of the Total Volume and Contents of the Finished Product.",
+    "textBagType50": "Bag type ORIGEN CS50:",
+    "textTotalVolume1030": "Total Volume: 10-30 mL per bag",
+    "text1E8Tcells": "Contents: 1E8 to 3E8 CAR-positive viable T cells",
+    "textBagType250": "Bag type ORIGEN CS250:",
+    "textTotalVolume3070": "Total Volume: 30-70 mL per bag",
+    "text3E8Tcells": "Contents: 3E8 to 7E8 CAR-positive viable T cells",
+    "titleTotalVolume": "Total Volume",
+    "titleContents": "Contents",
+    "titleHarvestStartDate": "Manufactured on",
+    "titleHarvestEndDate": "Expiration Date"
+  },
+  "printFpCoiLabels": {
+    "phaseName": "Print Labels",
+    "title": "Print Finished Product COI Labels",
+    "successMessage": "Print request has been successfully sent.",
+    "printButtonDescription": "Print labels",
+    "printButtonLabel": "Print Labels",
+    "checkbox": "Confirm that the expected COI labels printed correctly and are legible."
+  },
+  "printFpBagLabels": {
+    "phaseName": "Print Labels",
+    "labelText":"Labels Configured to Print: 3 x Finished Product Labels",
+    "title": "Print Finished Product Bag Labels",
+    "successMessage": "Print request has been successfully sent.",
+    "printButtonDescription": "Print Finished Product labels",
+    "printButtonLabel": "Print Labels",
+    "checkboxDescription": "Confirm that the expected bag labels printed correctly and are legible.",
+    "checkBoxLabel": "Yes"
+  },
+  "confirmNumberOfBags": {
+    "phaseName": "Manufacture Complete",
+    "title": "Confirm Number of Bags",
+    "header": "Confirm Number of Bags",
+    "bagCount": "How many bags resulted from today's manufacturing process?",
+    "checkbox": "Apply Labels to Bags and Cassettes"
+  },
+  "manufacturingSummary": {
+    "phaseName": "Manufacture Complete",
+    "title": "Manufacturing Summary",
+    "headingSubjectInformation": "Subject Information",
+    "headingManufacturingStart": "Manufacturing Start Date",
+    "headingHarvesting": "Harvesting",
+    "subjectId": "Subject ID",
+    "apheresisId": "DIN/Unique Donation Number/Apheresis ID",
+    "coiLabelsPrint": "Print Finished Product Heading Labels",
+    "headingPrint": "Print Finished Product Bag Labels",
+    "headingConfirmBags": "Confirm Number of Bags",
+    "manufacturingStart": "Manufacturing Start Date",
+    "manufacturingProcess": "The manufacturing process of CD30.CAR-T Product has started.",
+    "totalVolume":"Total Volume",
+    "contents":"Contents",
+    "manufacturedOn":"Manufactured on",
+    "expiration":"Expiration Date",
+    "confirmCoiLabels":"Confirm that the expected COI labels printed correctly and are legible.",
+    "confirmBags":"Confirm that the expected bag labels printed correctly and are legible.",
+    "howManyBags":"How many bags resulted from today's manufacturing process?",
+    "applyBags":"Apply Labels to Bags and Cassettes",
+    "target":"Target Infusion Dose (E8 viable CD.30CAR-T cells)"
+  },
+  "qaRelease": {
+    "phaseName": "QA Release",
+    "title": "QA Release",
+    "headerFirst": "Document Upload",
+    "uploadText": "Please upload release documents."
+  },
+  "sponserRelease": {
+    "phaseName": "Sponsor Release",
+    "title": "Sponsor Release",
+    "headerFirst": "Review QA Release Documents",
+    "headerSecond": "Document Upload",
+    "uploadText": "Please upload the release documents."
+  },
+  "sponserReleaseSummary": {
+    "phaseName": "Sponsor Release",
+    "title": "Sponsor Release Summary",
+    "summaryText": "View Sponsor Release Summary"
+  },
+  "selectBagsToBeShipped": {
+    "phaseName": "Ship Product",
+    "title": "Select Bags to be Shipped",
+    "headerDescription": "Indicate which bags you will be shipping and which bags will not be shipped. Bags that are selected for shipping will be scanned as part of the Shipping Checklist."
+  },
+  "shippingChecklist": {
+    "phaseName": "Ship Product",
+    "title": "Shipping Checklist",
+    "bagScanHeader": "Bag Scan",
+    "bagVerificationHeaderOne": "Bag 1 Verification",
+    "bagVerificationHeaderTwo": "Bag 3 Verification",
+    "shippingLabelHeader": "Shipping Label",
+    "packShipperHeader": "Pack the Shipper",
+    "sealShipperHeader": "Seal the Shipper",
+    "passLabelKey": "Yes",
+    "failLabelKey": "No",
+    "bagScanLabel": "Scan or enter the Bag ID from the label on the finished product bag.",
+    "attachShippingLabels": "Attach shipping labels to shipper.",
+    "awbNumber": "Scan or enter the Air Waybill number on the shipping labels.",
+    "additionalComments": "Additional Comments",
+    "fpIntoIhipper": "Pack and load the finished product into the shipper according to the instructions provided.",
+    "summaryDocumentsPrinted": "Check that the Summary documents have been printed.",
+    "summaryDocumentsInShipper": "Place summary documents in the shipper.",
+    "shipperSealed": "Shipper has been sealed"
+  },
+  "shippingSummary": {
+    "phaseName": "Ship Product",
+    "title": "Shipping Summary",
+    "attachLabels": "Attach shipping labels to shipper.",
+    "awbNumber":"Scan or enter the Air Waybill number on the shipping labels",
+    "additionalComments":"Additional Comments (Optional)",
+    "packLoadFp":"Pack and load the finished product into the shipper according to the instructions provided.",
+    "summaryDocuments":"Place summary documents in the shipper.",
+    "shipperSealed":"Shipper has been sealed.",
+    "optionalComments":"Additional Comments (Optional)"
+  }
+}

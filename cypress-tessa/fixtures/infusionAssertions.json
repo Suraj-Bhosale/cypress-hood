@@ -1,0 +1,61 @@
+{
+	"shipmentReceiptChecklist": {
+		"title": "Shipment Receipt Checklist",
+		"phaseName": "Receive Product",
+		"shippingLabel": "Shipping Label Scan",
+		"expectedAwb": "Expected Air Waybill Number",
+		"awbNumber": "Scan or enter the Air Waybill Number on the shipping label.",
+		"sectionCondition":"Condition and Details of Outer Shipper",
+		"shippingIntact":"Is the shipping container in good intact condition?",
+		"sealIntact":"Is the seal on the shipper intact?",
+		"additionalComments":"Additional Comments (Optional)",
+		"manufacturingAwbNotMatch": "Did the Air Waybill Number match the expected value?",
+		"rationalResponse":"Please provide rationale for response."
+	},
+	"shipmentReceiptSummary": {
+		"title": "Shipment Receipt Summary",
+		"phaseName": "Receive Product",
+		"sectionChecklist":"Shipment Receipt Checklist",
+		"sectionCondition":"Condition and Details of Outer Shipper",
+		"review":"Review",
+		"expectedAwb": "Expected Air Waybill Number",
+		"awbNumber": "Did the Air Waybill Number match the expected value?",
+		"manufacturingAwb":"Scan or enter the Air Waybill Number on the shipping label.",
+		"shippingIntact":"Is the shipping container in good intact condition?",
+		"sealIntact":"Is the seal on the shipper intact?",
+		"additionalComments":"Additional Comments (Optional)",
+		"rationalResponse": "Please provide rationale for response."
+	},
+	"finishedProductReceiptChecklist": {
+		"title": "Finished Product Receipt Checklist",
+		"phaseName": "Receive Product",
+		"bagScan": "Bag Scan",
+		"condition": "Condition and Details of Shipment",
+		"scanBag1": "Scan or enter the Bag ID from the label on the finished product bag 1",
+		"scanBag2": "Scan or enter the Bag ID from the label on the finished product bag 2",
+		"scanBag3": "Scan or enter the Bag ID from the label on the finished product bag 3",
+		"scanBag4": "Scan or enter the Bag ID from the label on the finished product bag 4",
+		"temperatureDataConformation": "Does the temperature data conform to standards?",
+		"fpBagCondition": "Is the finished product bag in expected good condition?"
+	},
+	"finishedProductReceiptSummary": {
+		"title": "Finished Product Receipt Summary",
+		"scanBag1": "Scan or enter the Bag ID from the label on the finished product bag 1",
+		"scanBag2": "Scan or enter the Bag ID from the label on the finished product bag 2",
+		"scanBag3": "Scan or enter the Bag ID from the label on the finished product bag 3",
+		"scanBag4": "Scan or enter the Bag ID from the label on the finished product bag 4",
+		"tempData":"Does the temperature data conform to standards?",
+		"expectedGoodCond":"Is the finished product bag in expected good condition?",
+		"addData": "Additional Comments (Optional)",
+		"review": "Review"
+	},
+	"sponsorReleaseDocuments": {
+		"title": "Sponsor Release Documents",
+		"phase": "Sponsor Release",
+		"headerOne": "If the Sponsor Release document is not available, you will receive an email notification when it is ready for viewing.",
+		"releaseDoc": "Release document",
+		"headerTwo": "Ensure that Sponsor has released the Investigational Product before proceeding with infusion.",
+		"headerThree": "View Manufacturing Summary"
+
+	}
+}

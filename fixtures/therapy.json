@@ -1,0 +1,193 @@
+{
+  "lclp_us": {
+    "context": "execution-context-jnj68284528mmy2003",
+    "scheduler_suffix": "",
+    "region": "US",
+    "countryCode": "US",
+    "category": "lclp"
+  },
+  "lccp_us": {
+    "context": "execution-context-jnj68284528mmy2003lccp",
+    "scheduler_suffix": "_lccp",
+    "region": "US",
+    "countryCode": "US",
+    "category": "lccp"
+  },
+  "cccp_us": {
+    "context": "execution-context-jnj68284528mmy2003cccp",
+    "scheduler_suffix": "_cccp",
+    "region": "CCCP US",
+    "countryCode": "US",
+    "category": "cccp",
+    "has_sat_lab": true
+  },
+  "cclp_us": {
+    "context": "execution-context-jnj68284528mmy2003cclp",
+    "scheduler_suffix": "_cclp",
+    "region": "CCLP US",
+    "countryCode": "US",
+    "category": "cclp",
+    "has_sat_lab": true
+  },
+  "cmlp_us": {
+    "context": "execution-context-jnj68284528_jnj_68284528MMY_2003_cmlp_us",
+    "scheduler_suffix": "_cmlp_us",
+    "region": "US",
+    "countryCode": "US",
+    "category": "cmlp",
+    "has_sat_lab": true
+  },
+  "cmcp_us": {
+    "context": "execution-context-jnj68284528-jnj-68284528MMY2003-cmcp-us",
+    "scheduler_suffix": "_cmcp_us",
+    "region": "US",
+    "countryCode": "US",
+    "category": "cmcp",
+    "has_sat_lab": true
+  },
+  "cclp_eu": {
+    "context": "execution-context-jnj68284528mmy2003eu",
+    "scheduler_suffix": "_eu",
+    "region": "EU",
+    "countryCode": "EU",
+    "category": "cclp",
+    "has_sat_lab": true
+  },
+  "cccp_eu": {
+    "context": "execution-context-jnj68284528-jnj-68284528MMY2003-cccp-eu",
+    "scheduler_suffix": "_cccp_eu",
+    "region": "EU",
+    "countryCode": "EU",
+    "category": "cccp",
+    "has_sat_lab": true
+  },
+  "cclp_is": {
+    "context": "execution-context-jnj68284528mmy2003cclpIS",
+    "scheduler_suffix": "_cclp_is",
+    "region": "IS",
+    "countryCode": "IS",
+    "category": "cclp",
+    "has_sat_lab": true
+  },
+  "cccp_is": {
+    "context": "execution-context-jnj68284528mmy2003cccpIS",
+    "scheduler_suffix": "_cccp_is",
+    "region": "IS",
+    "countryCode": "IS",
+    "category": "cccp",
+    "has_sat_lab": true
+  },
+  "cclp_jp": {
+    "context": "execution-context-jnj68284528mmy2003cclpJP",
+    "scheduler_suffix": "_cclp_jp",
+    "region": "JP",
+    "countryCode": "JP",
+    "category": "cclp",
+    "unique_id": "_cclp_jp",
+    "has_sat_lab": true
+  },
+  "cccp_jp": {
+    "context": "execution-context-jnj68284528mmy2003cccpJP",
+    "scheduler_suffix": "_cccp_jp",
+    "region": "JP",
+    "countryCode": "JP",
+    "category": "cccp",
+    "has_sat_lab": true
+  },
+  "lclp_cilta": {
+    "context": "execution-context-cilta-cel-jnj-us-lclp",
+    "scheduler_suffix": "_us_lclp_cilta",
+    "category": "cilta",
+    "unique_id": "_lclp_cilta",
+    "has_sat_lab":false,
+    "leg_name": "us-lclp-cilta-1"
+  },
+  "cmlp_cilta": {
+    "context": "execution-context-cilta-cel-jnj-us-cmlp",
+    "scheduler_suffix": "_us_cmlp_cilta",
+    "category": "cilta",
+    "unique_id": "_cmlp_cilta",
+    "has_sat_lab": true,
+    "leg_name": "us-cmlp-cilta-1"
+  },
+  "cclp_cilta": {
+    "context": "execution-context-cilta-cel-jnj-us-cclp",
+    "scheduler_suffix": "_us_cclp_cilta",
+    "category": "cilta",
+    "unique_id": "_cclp_cilta",
+    "has_sat_lab": true,
+    "leg_name": "us-cclp-cilta"
+  },
+  "emea_cc_qr": {
+    "context": "execution-context-cilta-cel-jnj-emea-cclp-qr",
+    "scheduler_suffix": "_emea_cc_qr",
+    "has_sat_lab": true,
+    "unique_id": "_emea_cc_qr",
+    "category": "emea",
+    "leg_name": "emea-cc-qr",
+    "prefix": "_emea_cc"
+  },
+  "emea_cc": {
+    "context": "execution-context-cilta-cel-jnj-emea-cclp",
+    "scheduler_suffix": "_emea_cc",
+    "category": "emea",
+    "unique_id": "_emea_cc",
+    "has_sat_lab": true,
+    "leg_name": "emea-cc",
+    "prefix": "_emea_cc"
+  },
+  "emea_ccdc_qr": {
+    "context": "execution-context-cilta-cel-jnj-emea-cclp-dc-qr",
+    "scheduler_suffix": "_emea_ccdc_qr",
+    "category": "emea",
+    "unique_id": "_emea_ccdc_qr",
+    "has_sat_lab": true,
+    "leg_name": "emea-ccdc-qr",
+    "prefix": "_emea_cc"
+  },
+  "emea_ccdc": {
+    "context": "execution-context-cilta-cel-jnj-emea-cclp-dc",
+    "scheduler_suffix": "_emea_ccdc",
+    "category": "emea",
+    "unique_id": "_emea_ccdc",
+    "has_sat_lab": true,
+    "leg_name": "emea-ccdc",
+    "prefix": "_emea_cc"
+  },
+  "emea_lc_qr": {
+    "context": "execution-context-cilta-cel-jnj-emea-lclp-qr",
+    "scheduler_suffix": "_emea_lc_qr",
+    "category": "emea_lc_qr",
+    "unique_id": "_emea_lc_qr",
+    "has_sat_lab": false,
+    "leg_name": "emea-lc-qr",
+    "prefix": "_emea_lc"
+  },
+  "emea_lc": {
+    "context": "execution-context-cilta-cel-jnj-emea-lclp",
+    "scheduler_suffix": "_emea_lc",
+    "category": "emea_lc",
+    "unique_id": "_emea_lc",
+    "has_sat_lab": false,
+    "leg_name": "emea-lc",
+    "prefix": "_emea_lc"
+  },
+  "emea_lcdc": {
+    "context": "execution-context-cilta-cel-jnj-emea-lclp-dc",
+    "scheduler_suffix": "_emea_lcdc",
+    "category": "emea_lc",
+    "unique_id": "_emea_lcdc",
+    "has_sat_lab": false,
+    "leg_name": "emea-lcdc",
+    "prefix": "emea_lc"
+  },
+  "emea_lcdc_qr": {
+    "context": "execution-context-cilta-cel-jnj-emea-lclp-dc-qr",
+    "scheduler_suffix": "_emea_lcdc_qr",
+    "category": "emea_lc",
+    "unique_id": "_emea_lcdc_qr",
+    "has_sat_lab": false,
+    "leg_name": "emea-lcdc-qr",
+    "prefix": "emea_lc"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "headers": {
+    "name": "NAME",
+    "subjectNumber": "SUBJECT NUMBER",
+    "studyNumber": "STUDY NUMBER",
+    "coi": "COI"
+  },
+
+  "phases": {
+    "receive": "Receive",
+    "shipmentChecklist": "Shipment Checklist",
+    "shipmentSummary": "Shipment Summary",
+    "storage": "Storage",
+    "productChecklist": "Product Checklist",
+    "productSummary": "Product Summary"
+  },
+
+  "receiveShipment": {
+    "titleReciveShipment": "Receive Shipment",
+    "verifyLn2Shipper": "Verify LN2 Shipper",
+    "scanOrEnterTheCoi": "Scan or enter the COI Number found on the LN2 shipper label.",
+    "confirm": "Confirm"
+  },
+
+  "shipmentReceiptChecklist": {
+    "titleShipmentReceiptChecklist": "Shipment Receipt Checklist",
+    "conditionAndDetailsOfShipment": "Condition and Details of Shipment",
+    "documentChecksPerformed": "Complete this section prior to opening the LN2 shipper. Document the checks performed, actions taken, and the condition of the shipment upon arrival at the site.",
+    "containerCaseIntact": "Is the shipping container case intact? If the shipping container is damaged or not in expected condition, please contact Janssen Site Manager for further instructions",
+    "containerSecured": "Is the shipping container secured?",
+    "labelsIncluded": "Is the Janssen shipper label(s) included with the shipper?",
+    "consigneeKitPouchIncluded": "Is the Consignee kit pouch included with the shipper?",
+    "enterEvoIsNumber": "Please enter the last 4-digits of the EVO-IS Number on the LN2 shipper lid.",
+    "matchEvoIsNumbers": "Does the EVO-IS Number listed on the Air Waybill match the EVO-IS Number on the LN2 shipper lid?",
+    "redWireTamperSeal": "Is the Red Wire Tamper Seal in place for the LN2 shipper lid?",
+    "enterTamperSealNumber": "Please enter the Tamper Seal Number on LN2 shipper lid.",
+    "matchTamperSealNumber": "Does the Tamper Seal Number listed on the Air Waybill match the Tamper Seal Number on the LN2 shipper lid?"
+  },
+
+  "shipmentReceiptSummary": {
+    "titleShipmentReceiptSummary": "Shipment Receipt Summary",
+    "shipmentDetails": "Shipment Details",
+    "receivedShipperLabelId": "Received Shipper label ID",
+    "airwayBillNo": "Airway bill number or shipment tracking identification",
+    "siteNumber": "Site Number",
+    "subjectNumber": "Subject Number",
+    "conditionOfShipment": "Condition of Shipment",
+    "edit": "Edit",
+    "isShippingContainerCaseIntact": "Is the shipping container case intact? If the shipping container is damaged or not in expected condition, please contact Janssen Site Manager for further instructions",
+    "isContainerSecured": "Is the shipping container secured?",
+    "isLabelIncluded": "Is the Janssen shipper label(s) included with the shipper?",
+    "enterEvoIsNumber": "Please enter the last 4-digits of the EVO-IS Number on the LN2 shipper lid.",
+    "consigneeKitPouchIncluded": "Is the Consignee kit pouch included with the shipper?",
+    "matchEvoIsNumber": "Does the EVO-IS Number listed on the Air Waybill match the EVO-IS Number on the LN2 shipper lid?",
+    "redWireTamperSealPlaced": "Is the Red Wire Tamper Seal in place for the LN2 shipper lid?",
+    "enterTamperSealNumber": "Please enter the Tamper Seal Number on LN2 shipper lid.",
+    "matchTamperSealNumber": "Does the Tamper Seal Number listed on the Air Waybill match the Tamper Seal Number on the LN2 shipper lid?",
+    "confirmed": "Confirmed",
+    "confirmerPrompt": "I confirm that the information entered is complete and accurate.",
+    "verifierPrompt": "I verify that the information entered is complete and accurate."
+  },
+
+  "transferProductToStorage": {
+    "titleTransferProductToStorage": "Transfer Product To Storage",
+    "removeEachCassette": "Remove each cassette from the LN2 shipper and place into storage, scanning each to capture the time of this step.",
+    "placeTheProductIntoLiquidNitrogen": "IMPORTANT:  Please place the investigational product into liquid nitrogen storage as soon as possible upon receipt and ensure all checks have been performed and verified. The frozen bag is fragile. Always handle the cassette and frozen bag with care and control at all times.",
+    "documentTheChecksPerformed": "Document the checks performed, actions taken, and the condition of the shipment upon arrival at the site.",
+    "howFinalProductStored": "How will the Final Product be stored?",
+    "placeCassette1": "Place cassette 1 in storage",
+    "scanCoiOnLn2ShipperLabel": "Scan or enter the COI number on the LN2 shipper label.",
+    "scanCoiBagIdentifier": "Scan or enter the COI Bag Identifier on the cassette.",
+    "confirm": "Confirm"
+  },
+
+  "productReceiptChecklist": {
+    "titleProductReceiptChecklist": "Product Receipt Checklist",
+    "documentReceivingDetails": "Document Receiving Details",
+    "apheresisId": "DIN/SEC-DIS/Apheresis ID",
+    "cassetteWereNotExposed": "Confirm investigational product cassette(s) were not exposed to ambient temperature greater than 3 minutes.",
+    "tamperEvidentSealOnCassetteRack": "Was the tamper evident seal in place on the cassette rack?",
+    "temperatureOutOfRangeAlarm": "Was there a temperature out-of-range alarm received? If yes, contact Janssen immediately and follow instructions in the CTPPM.",
+    "cassetteInTheExpectedCondition": "Is each bag and cassette in the expected condition (e.g. no cassette damage, label adhered)? If bag(s) or cassette(s) is not in expected condition, please contact Janssen for further instructions.",
+    "cassettePlacedIntoStorageAsPerTheCassetteLabel": "Has the investigational product cassette(s) been placed into storage as per the cassette label: Store at ≤-120°C (-184°F), vapor phase of liquid nitrogen? This should be done even if there are any issues with the shipment.",
+    "additionalComments": "Please enter additional comments about the receipt: (Optional)"
+  },
+
+  "productReceiptSummary": {
+    "titleProductReceiptSummary": "Product Receipt Summary",
+    "receivedShipperLabelId": "Received Shipper label ID",
+    "confirmed": "Confirmed",
+    "airwayBillNumber": "Airway bill number or shipment tracking identification",
+    "coi": "COI",
+    "siteNumber": "Site Number",
+    "howWillFinalProductStored": "How will the Final Product be stored?",
+    "shipperLabelRemoved": "Shipper label of the LN2 shipper from which the investigational product is removed.",
+    "bagIdPlacedIntoLn2Storage": "Bag ID of the investigational product placed into local LN2 storage.",
+    "conditionOfProduct": "Condition of Product",
+    "apheresisId": "DIN/SEC-DIS/Apheresis ID",
+    "confirmCassetteNotExposed": "Confirm investigational product cassette(s) were not exposed to ambient temperature greater than 3 minutes.",
+    "wasTamperEvidentSealInPlace": "Was the tamper evident seal in place on the cassette rack?",
+    "temperatureOutOfRangeAlarm": "Was there a temperature out-of-range alarm received? If yes, contact Janssen immediately and follow instructions in the CTPPM.",
+    "cassetteInTheExpectedCondition": "Is each bag and cassette in the expected condition (e.g. no cassette damage, label adhered)? If bag(s) or cassette(s) is not in expected condition, please contact Janssen for further instructions.",
+    "cassettePlacedIntoStorageAsPerTheCassetteLabel": "Has the investigational product cassette(s) been placed into storage as per the cassette label: Store at ≤-120°C (-184°F), vapor phase of liquid nitrogen? This should be done even if there are any issues with the shipment.",
+    "additionalComments": "Please enter additional comments about the receipt:",
+    "localLn2Storage": "Local LN2 storage",
+    "confirmerPrompt": "I confirm that the information entered is complete and accurate.",
+    "verifierPrompt": "I verify that the information entered is complete and accurate."
+  },
+
+  "qualityRelease": {
+    "titleQualityRelease": "Quality Release",
+    "patientInformation": "Patient Information",
+    "name": "Name",
+    "verifyProductIsApproved": "I verify that this product is approved for release.",
+    "verify": "Verify"
+  }
+}

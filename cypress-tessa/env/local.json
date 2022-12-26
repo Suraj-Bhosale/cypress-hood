@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://localhost:5000",
+  "env": {
+    "platformUrl": "http://localhost:3000",
+    "schedulingUrl": "http://localhost:3001",
+    "orderingNurse": "nina@vineti.com",
+    "password": "password one two three",
+    "aphNurse": "arlene@vineti.com"
+  },
+  "integrationFolder": "cypress/integration/Apps/GA/e2e",
+  "defaultCommandTimeout": 10000,
+  "requestTimeout": 10000
+}

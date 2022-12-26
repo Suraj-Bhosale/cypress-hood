@@ -1,0 +1,256 @@
+{
+    "collectionHeader":{
+        "name": "NAME",
+        "subjectNumber": "SUBJECT NUMBER",
+        "studyNumber": "STUDY NUMBER"
+    },
+
+    "collectionPhases":{
+        "centralPrinting": "Central Printing",
+        "labelShipping": "Label Shipping",
+        "patientIdentity": "Patient Identity",
+        "bagId": "Bag ID",
+        "labels": "Labels",
+        "collect": "Collect",
+        "bagDetails": "Bag Details",
+        "summary": "Summary",
+        "handoff": "Handoff",
+        "handoffReceipt": "Handoff Receipt",
+        "cryopreservation": "Cryopreservation",
+        "shipping": "Shipping"
+    },
+
+    "centralLabelPrinting": {
+        "title": "Central Label Printing",
+        "collectionLabels": "Collection Labels",
+        "shipperLabels": "Shipper Labels",
+        "cryopreservationLabels": "Cryopreservation Labels",
+        "printLabel": "Print labels",
+        "confirmLabel": "Confirm label is printed successfully",
+        "confirmLabels": "Confirm labels are printed successfully",
+        "totalLabelPrinted":"Total Labels Printed",
+        "confirmPrompt": "I confirm the label is printed successfully."
+    },
+
+    "labelShipping": {
+        "shipLabelTitle": "Ship Labels To Collection Site",
+        "shipLabelSectionTitle": "Ship Labels",
+        "description": "Confirm labels were shipped",
+        "confirmPrompt": "I confirm that labels were shipped."
+    },
+    "collectionPatientVerification":{
+        "patientVerificationTitle": "Patient Verification",
+        "patientInformation": "Patient Information",
+        "verifyPatientIdentity": "Verify Patient Identity",
+        "dayOfBirth": "Day of Birth",
+        "monthOfBirth": "Month of Birth",
+        "yearOfBirth": "Year of Birth",
+        "verifyPatientDescription": "Verify patient name and date of birth using a government issued identity document",
+        "verifyPrompt": "I verify the identity of the patient has been verified.",
+        "confirmPrompt": "I confirm the identity of the patient has been verified."
+    },
+
+    "collectionIdentification":{
+        "collectionBagIdentificatioTitle": "Collection Bag Identification",
+        "identifyBag": "IDENTIFY BAG",
+        "precollectionInformation": "Pre-Collection Information",
+        "scanEnterDin": "Scan or enter the DIN/Unique Donation Number/Apheresis ID.",
+        "scanEnterDinSec": "Scan or enter the DIN/SEC-DIS/Apheresis ID.",
+        "verifySites": "Verify your site’s pre-collection label has been affixed to the cell collection bag.",
+        "dateOfApheresis": "Date of Apheresis",
+        "enter": "Enter",
+        "confirm": "Confirm"
+
+    },
+
+    "collectionLabelPrinting":{
+        "collectionBagLabelPrinting": "Collection Bag Label Printing",
+        "printLabel": "Print Label",
+        "applyLabel": "Apply Label",
+        "printLabelBlock": "Print Labels",
+        "confirmLabel": "Confirm labels are printed successfully",
+        "verifyApheresis": "Verify the apheresis label has been affixed to the collection bag",
+        "totalLabelPrinted": "Total Labels Printed",
+        "apheresisLabelCclp": "1 x Apheresis Label(EU) CCLP",
+        "apheresisShipperCclp": "1 x Apheresis Shipper(EU) CCLP",
+        "apheresisLabel": "Apheresis Label",
+        "cryopreservationBagLabels": "Cryopreservation Bag Labels",
+        "cryopreservationCassetteLabels": "Cryopreservation Cassette Labels",
+        "cryopreservationShipper": "Cryopreservation Shipper",
+        "confirmPrompt": "I confirm the Apheresis label has been affixed to the Collection bag."
+    },
+
+    "collectionProcedureInformation":{
+        "collectionProcedureInformationTitle": "Collection Procedure Information",
+        "patientData": "Patient Data",
+        "patientWeight": "Patient Weight (in Kg)"
+    },
+
+    "bagDataEntry":{
+        "bagDataEntryTitle": "Bag Data Entry - Day 1",
+        "scanCollectionBagCoi": "Scan Collection Bag COI",
+        "collectionDetails": "Collection Details",
+        "scanEnterCoi": "Scan or enter the COI Bag Identifier from the apheresis bag.",
+        "collectedProductVolume": "Collected Product Volume in mL",
+        "wholeBloodProcessed": "Whole Blood Processed in L",
+        "anticoagulantType": "Anticoagulant Type",
+        "anticoagulantVolume": "Anticoagulant Volume in mL",
+        "enterStartEndTime": "Enter Start and End Time of Collection",
+        "startTime": "Start Time (24H)",
+        "endTime": "End Time (24H)"
+    },
+
+    "collectionSummaryPage":{
+        "collectionSummaryTitle": "Collection Summary",
+        "patientData": "Patient Data",
+        "procedureDetails": "Procedure Details",
+        "bagInformation": "Bag Information",
+        "coi": "COI",
+        "siteNumber": "Site Number",
+        "subjectNumber": "Subject Number",
+        "dateOfApheresis": "Date of Apheresis",
+        "patientWeight": "Patient Weight",
+        "dinSecId":"DIN/SEC-DIS/Apheresis ID",
+        "coiBagIdentifier": "COI Bag Identifier",
+        "collectProductVolume": "Collected Product Volume in mL",
+        "wholeBloodProcessed": "Whole Blood Processed in L",
+        "anticoagulantType": "Anticoagulant Type",
+        "anticoagulantVolume": "Anticoagulant Volume in mL",
+        "startTime": "Start time (24H): Time at which blood begins to enter the apheresis disposable",
+        "endTime": "End time (24H): Completion of apheresis procedure at end of rinseback",
+        "descriptionConfirm": "We hereby confirm that apheresis collection and labeling was performed according to the specifications described in the Cell Therapy Product Procedures Manual (CTPPM) provided by Janssen and following Internal Quality procedures under responsibility of the Tissue/Blood Establishment Responsible Person.",
+        "verifyPrompt":"I verify that the information entered is complete and accurate.",
+        "confirmPrompt": "I confirm that the information entered is complete and accurate."
+    },
+
+    "handOff": {
+        "changeOfCustody": "Confirm Change of Custody",
+        "scanCollectionBagCoi": "Scan Collection Bag COI",
+        "scanBagId": "Scan or enter the Bag ID to confirm hand-off",
+        "confirmPrompt": "I confirm the cell collection bag has been transferred to an appropriate party."
+    },
+
+    "handOffReceipt":{
+        "confirmChangeOfCustody": "Confirm Change of Custody",
+        "scanBagId": "Scan or enter the Bag ID to confirm receipt"
+    },
+
+    "transferProductToShipperTranslations": {
+        "transferProductToShipper": "Transfer Product To Shipper",
+        "transferBagToShipper": "Transfer bag to shipper",
+        "scanLn2Shipper": "Scan or enter the COI number on the LN2 shipper label.",
+        "transferBagDescription": "Transfer the bag into the shipper and scan the COI number on the shipper label to capture the timestamp of this step."
+    },
+
+    "collectionShipmentChecklist": {
+        "shipmentChecklist":"Shipment Checklist",
+        "airwayBill":"Air Waybill Number or Shipment Tracking Identification",
+        "confirmMnc": "Confirm MNC, Apheresis was not exposed to ambient temperature greater than 60 minutes.",
+        "listOfSerialNumber": "List the serial number of the temperature monitoring device (if applicable to your country): (Optional)",
+        "listOfSecuritySeal": "List the security seal number on the shipper (if applicable to your country): (Optional)",
+        "idmSamples": "Has the infectious disease marker (IDM) samples been placed into the shipper? If not applicable, select NO and then enter 'N/A' in comments box under question",
+        "tempratureMonitor": "Has the temperature monitor been activated?",
+        "additionalComments": "Please enter additional comments about the shipment. (Optional)"
+    },
+
+    "cryopreservation": {
+        "cryopreservationLabelTitle": "Cryopreservation Labels",
+        "bagStorage": "Bag Storage",
+        "storeCassette": "STORE CASSETTE 1",
+        "cryopreservationAndShipperLabel": "Cryopreservation and Shipper Labels",
+        "applyBagLabels": "Apply bag 1 labels",
+        "confirmNumberOfBags": "Confirm number of bags",
+        "cryopreservationData": "Cryopreservation Data",
+        "bagVolume": "Bag 1 Volume",
+        "cryopreservationSummary": "Cryopreservation Summary",
+        "procedureDetails": "Procedure Details",
+        "cryopreservationSummaryData": "Cryopreservation Data",
+        "numberOfBags": "Number of bags formulated for cryopreservation?",
+        "scanCoiIdentifier": "Scan or enter the COI identifier on the bag label (Bag 1).",
+        "scanCoiBag": "Scan or enter the COI Bag Identifier on the cassette label (Bag 1).",
+        "verifyLabels": "Verify labels have been attached to all collection bags",
+        "scanEnterCoi": "Scan or Enter the COI-based bag identifier for moving bag to storage (Bag 1)",
+        "scanBagIdentifier": "Scan or enter the bag identifier prior to entering bag details (Bag 1)",
+        "totalMncCell": "Total MNC Cells (in e^9)",
+        "productVolume": "Product Volume (Cells + CS10) in mL",
+        "studyNumber": "Study Number",
+        "siteNumber": "Site Number",
+        "dinSecId":"DIN/SEC-DIS/Apheresis ID",
+        "scannedShipper": " Scanned shipper label upon receipt of Apheresis product at cell processing lab ",
+        "numberOfBagsFormulated": "Number of bags formulated for cryopreservation",
+        "scanEnterBagIdentifier": "Scan or enter the bag identifier prior to entering bag details (Bag 1)",
+        "bagIdentifier": "Bag Identifier ",
+        "dateTimeCryopreservation": "Date/Time Cryopreserved Apheresis Product cassette placed into LN2 storage"
+    },
+
+    "shipping":{
+        "bagSelectionTitle": "Bag Selection",
+        "confirmNumberOfBags": "Confirm number of bags",
+        "bag": "Bag 1",
+        "dateCollected": "Date Collected",
+        "bagIdentifier": "Bag Identifier",
+
+        "transferBagToShipper": "Transfer Product To Shipper",
+        "captureCassetteTimestamps":"Capture Cassette 1 Timestamps",
+        "shippingContainerCaseIntact": "Is the shipping container case intact? If the shipping container is damaged or not in expected condition, please contact Janssen.",
+        "shippingContainerIntactLclp": "Is the shipping container case intact? If the shipping container is damaged or not in expected condition, please contact your Janssen Cell Therapy Coordinator.",
+        "temperatureAlarmReceived": "Was there a temperature out-of-range alarm received? If yes, contact Janssen immediately and do NOT proceed until further instructions are given",
+        "temperatureAlarmReceivedLclp": "Was there a temperature out-of-range alarm received? If yes, please contact your Janssen Cell Therapy Coordinator immediately and do NOT proceed until further instructions are given.",
+        "importantNote": "IMPORTANT: Please place the cryopreserved apheresis product into the liquid nitrogen shipper as soon as possible and ensure all checks have been performed and verified. The frozen bag is fragile. Always handle the cassette with frozen bag with care and maintain control at all times.",
+        "removeCassette1": "Remove cassette 1 from storage and scan to capture the time of this step. Next, transfer the cassette into the LN2 shipper and scan the COI number on the LN2 shipper label to capture the timestamp of this step.",
+        "scanEnterCoiBagIdentifier": "Scan or enter the COI Bag Identifier on the cassette label (Bag 1)",
+        "CoiNumberLn2ShipperLabel": "Scan or enter the COI number on the LN2 shipper label.",
+        "cryopreservedApheresisProduct": "Confirm cryopreserved apheresis product cassette(s) were not exposed to ambient temperature greater than 3 minutes",
+        "rackOnCassetteRack": "Is the red wire tamper seal labeled \"RACK\" in place on the cassette rack?",
+
+        "shipmentChecklist": "Shipment Checklist",
+        "waybillNumber": "Please enter air waybill number for shipment.",
+        "shipperLabelId": " Shipper Label ID for the shipment ",
+        "digitsEvoisNumber": "Please enter the last 4 digits of the EVO-IS Number on the LN2 shipper lid",
+        "airWaybillMatchEvoisNumber": "Does the EVO-IS Number listed on the Air Waybill match the EVO-IS Number on the LN2 shipper lid?",
+        "ln2ShipperLid": "Is the red wire tamper seal in place for the LN2 shipper lid?",
+        "tamperSealNumber": "Please enter the Tamper Seal Number on LN2 shipper lid.",
+        "tamperSealNumberListed": "Does the Tamper Seal Number listed on the Air Waybill match the Tamper Seal Number on the LN2 shipper lid?",
+        "shipperLabel": "Is the shipper label(s) included with the shipper?",
+        "packingInsert": "Is the packing insert(s) included with the shipper?",
+        "consigneeKit": "Is the Consignee kit pouch included with the shipper?",
+        "shippingContainerSecured": "Is the shipping container secured?",
+        "additionalComments": "Please enter additional comments about the shipment.",
+
+        "cryopreservationShippingSummary": "Cryopreservation Shipping Summary",
+        "procedureDetails": "Procedure Details",
+        "transferProductToShipper": "Transfer Product To Shipper",
+        "conditionOfShipment": "Condition of Shipment",
+        "subjectNumber": "Subject Number",
+        "studyNumber": "Study Number",
+        "siteNumber": "Site Number",
+        "airWaybill": "Air Waybill",
+        "evoisNumberShipper": "EVO-IS Number of the shipper",
+        "coi": "COI",
+        "apheresisId": "DIN/SEC-DIS/Apheresis ID",
+        "consigneeKitSummary": "Is the Consignee Kit pouch included with the shipper?",
+        "bagIdCryopreserved": " Bag ID of Cryopreserved Product cassette removed from cell lab LN2 storage. ",
+        "waybillNumberSummary": " Please enter air waybill number for shipment. ",
+        "shipperLabelIdLn2Shipper": " Shipper label ID of the closed LN2 shipper containing packaged Cryopreserved Apheresis product cassette. "
+    },
+
+    "collectionShippingSummary": {
+        "shipmentSummary": "Shipment Summary",
+        "procedureDetails":"Procedure Details",
+        "condition": "Condition of Shipment",
+        "subjectNumber":"Subject Number",
+        "studyNumber":"Study Number",
+        "siteNumber":"Site Number",
+        "additionalComments":"Please enter additional comments about the shipment.",
+        "aphMaterial": "Bag ID of the Apheresis material placed into shipper",
+        "mncConfirm": "Confirm MNC, Apheresis was not exposed to ambient temperature greater than 60 minutes.",
+        "listOfSerialNumber":"List the serial number of the temperature monitoring device (if applicable to your country):",
+        "listOfSecuritySeal": "List the security seal number on the shipper (if applicable to your country):",
+        "idmSample": "Has the infectious disease marker (IDM) samples been placed into the shipper? If not applicable, select NO and then enter 'N/A' in comments box under question",
+        "tempratureMonitor":"Has the temperature monitor been activated?",
+        "airwaybillNumber": "Air Waybill Number or Shipment Tracking Identification",
+        "confirmPrompt":"I confirm that the information entered is complete and accurate.",
+        "verifyPrompt": "I verify that the information entered is complete and accurate."
+
+    }
+}
